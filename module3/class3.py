@@ -1,11 +1,11 @@
-print("in module3 class3")
+print("in file: " + __file__)
 
 from module1.class1 import Class1
 from module2.class2 import Class2
 
 class Class3:
     def __init__(self):
-        print("in Class3")
+        print("initializing Class3")
         Class1()
         Class2()
 

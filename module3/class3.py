@@ -9,6 +9,5 @@ class Class3:
         Class1()
         Class2()
 
-
 if __name__ == "__main__":
     Class3()
